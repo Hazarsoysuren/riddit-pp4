@@ -10,7 +10,7 @@ import random
 # Create your views here.
 
 @login_required(login_url='signin')
-def index(request):
+def base(request):
     user_object = User.objects.get(username=request.user.username)
     user_profile = Profile.objects.get(user=user_object)
 
@@ -54,7 +54,7 @@ def index(request):
     suggestions_username_profile_list = list(chain(*username_profile_list))
 
 
-    return render(request, 'index.html', {'user_profile': user_profile, 'posts':feed_list, 'suggestions_username_profile_list': suggestions_username_profile_list[:4]})
+    return render(request, 'base.html', {'user_profile': user_profile, 'posts':feed_list, 'suggestions_username_profile_list': suggestions_username_profile_list[:4]})
 
 @login_required(login_url='signin')
 def upload(request):
