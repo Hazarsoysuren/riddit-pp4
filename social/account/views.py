@@ -15,7 +15,11 @@ def index(request):
     user_profile = Profile.objects.get(user=user_object)
 
     user_following = FollowersCount.objects.filter(follower=request.user.username).values_list('user', flat=True)
-    feed_list = Post.objects.filter(user__in=user_following)
+    
+    if not user_following:
+        feed_list = Post.objects.all()
+    else:
+        feed_list = Post.objects.filter(user__in=user_following)
 
     # user suggestion starts
     all_users = User.objects.all()
