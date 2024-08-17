@@ -35,9 +35,9 @@ Welcome to Riddit! Riddit is a social media platform where users can share image
 - Engage: Like and comment on posts to interact with the community.
 
 ## Screenshots
-![Login]()
-![Signup]()
-![Postfeed]()
-![Postform]()
-![Profile]()
-![Profilesettings]()
+![Login](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-login.png?raw=true)
+![Signup](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-signup.png?raw=true)
+![Postfeed](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-feed.png?raw=true)
+![Postform](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-uplaod.png?raw=true)
+![Profile](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-profile.png?raw=true)
+![Profilesettings](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-profilesettings.png?raw=true)
