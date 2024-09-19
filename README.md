@@ -9,12 +9,17 @@ Welcome to Riddit! Riddit is a social media platform where users can share image
 - Screenshots
 
 ## Features
+![Postfeed](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-feed.png?raw=true)
 - User Authentication: Secure user registration and login.
+![Login](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-login.png?raw=true)
+![Signup](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-signup.png?raw=true)
 - Image Posting: Users can upload and post images to share with the community
+![Postform](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-uplaod.png?raw=true)
 - Follow/Unfollow Users: Follow other users to see their posts in your personalized feed.
-- Likes and Comments: Engage with posts by liking and commenting.
-- Profile Pages: Each user has a profile page showcasing their posts and information.
-- Responsive Design: Riddit is fully responsive, providing a seamless experience on both desktop and mobile devices.
+![Profile](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-profile.png?raw=true)
+- Adjust your profile with account settings to fully describe who you are.
+![Profilesettings](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-profilesettings.png?raw=true)
+
 
 ## Technologies Used
 - Frontend
@@ -35,9 +40,7 @@ Welcome to Riddit! Riddit is a social media platform where users can share image
 - Engage: Like and comment on posts to interact with the community.
 
 ## Screenshots
-![Login](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-login.png?raw=true)
-![Signup](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-signup.png?raw=true)
-![Postfeed](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-feed.png?raw=true)
-![Postform](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-uplaod.png?raw=true)
-![Profile](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-profile.png?raw=true)
-![Profilesettings](https://github.com/Hazarsoysuren/riddit-pp4/blob/main/social/static/images/readme/pp4-profilesettings.png?raw=true)
+
+
+
+
