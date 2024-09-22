@@ -1,1 +1,1 @@
-web: gunicorn riddit-pp4.wsgi --log-file -
+web: gunicorn social.wsgi --log-file -
