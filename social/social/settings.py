@@ -27,7 +27,7 @@ os.environ['DISABLE_COLLECTSTATIC'] = '1'
 SECRET_KEY = 'django-insecure-17w30!19g085o^&@&yzm=%%#7y*l*m4x!4-rk3(#f(v$7-5x=u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
