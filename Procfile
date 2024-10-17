@@ -1,3 +1,3 @@
-web: gunicorn social.wsgi
+web: gunicorn account.wsgi
 
 
