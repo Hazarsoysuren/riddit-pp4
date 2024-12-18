@@ -38,7 +38,7 @@ else:
 # list the expected hostnames explicitly in production to prevent HTTP Host header attacks. See:
 # https://docs.djangoproject.com/en/5.1/ref/settings/#std-setting-ALLOWED_HOSTS
 if IS_HEROKU_APP:
-    ALLOWED_HOSTS = ["riddit-pp4-08f4b37b4aaf.herokuapp.com"]
+    ALLOWED_HOSTS = ['riddit-pp4-b2e04675ecee.herokuapp.com']
 else:
     ALLOWED_HOSTS = [".localhost", "127.0.0.1", "[::1]", "0.0.0.0"]
 
