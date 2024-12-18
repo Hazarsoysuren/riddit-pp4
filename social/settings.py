@@ -146,14 +146,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / "staticfiles"  # Location where collectstatic will store files
+
 STATICFILES_DIRS = [
-    BASE_DIR / "assets",  # Add the assets directory
+    BASE_DIR / "assets",  # Include your assets directory
 ]
 
-django_heroku.settings(locals())
+STATIC_ROOT = BASE_DIR / "staticfiles"  # Directory where collectstatic places files
+
 STATICFILES_STORAGE = (
-    "whitenoise.storage.CompressedManifestStaticFilesStorage"  # Ensure this is set for hashed filenames
+    "whitenoise.storage.CompressedManifestStaticFilesStorage"
 )
 
 
